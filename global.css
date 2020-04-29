@@ -7,24 +7,28 @@
 }
 
 body {
-    font: 400 14px Robot, sans-serif;
+    font: 400 14px Roboto, sans-serif;
     background: #6C3E8E;
     -webkit-font-smoothing: antialiased;
 }
 
-li,
+p {
+    font: 400 14px Roboto, sans-serif;
+    color: #ededed;
+    margin: 5%;
+}
+
+h2 {
+    font: 700 Roboto, sans-serif;
+    color: #ededed
+}
+
 a {
-    font: 500 18px Robot, sans-serif;
+    font: 500 18px Roboto, sans-serif;
     color: #ededed;
     text-decoration: none;
 }
 
-header {
-    padding: 30px;
-}
-
-.nav_links {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+a:hover {
+    filter: brightness(80%);
 }

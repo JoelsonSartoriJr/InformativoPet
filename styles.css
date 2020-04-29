@@ -1,0 +1,32 @@
+#main {
+    width: 90%;
+    display: flex;
+}
+
+#descricao-card {
+    margin: 20px;
+    text-align: justify;
+}
+
+#intro {
+    width: 100%;
+    margin-right: 64px;
+    text-align: justify;
+    background: #1e3df3;
+}
+
+#card-main {
+    width: 450px;
+    height: 220px;
+    background: #1e3df3;
+    border-radius: 6px;
+    margin: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    margin: 20px 10px 20px 20px;
+    width: 60px;
+    height: 60px;
+}

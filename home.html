@@ -10,16 +10,91 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul class="nav_links">
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Gato</a></li>
-                <li><a href="#">Cachorro</a></li>
-                <li><a href="#">Sobre</a></li>
-            </ul>
-        </nav>
-    </header>
+    <div id="main">
+        <div id="intro">
+            <div id="titulo">
+                <a href="/">
+                    <img src="https://cdn.onlinewebfonts.com/svg/img_233292.png" alt="Imagem da logomarca">
+                </a>
+                <h1>Informativo Pet</h1>
+                <p>Informação para os seus amiguinhos</p>
+            </div>
+            <div id="descricao">
+                <p>
+                    <p>
+                        Esta site é para você que também ama animais.Gostaria de saber mais sobre eles?
+                    </p>
+                    <p>
+                        Aqui você encontra informações sobre animais, suas descrições, perfis e qualquer tipo de informação relevante sobre ele. Caso você tenha algo a acrescentar temos um espaço para a adição de animais e suas características.
+                    </p>
+                    <p>
+                        Comece clicando em algum animal de seu interesse para ver descrições mais detalhadas do mesmo e caso queira contribui clique em adicione um pet.
+                    </p>
+                </p>
+
+                <button onclick="onOff()">+ Adicionar Pet</button>
+                <a href="/list.hmtl" class="button">Ver Pets</a>
+            </div>
+        </div>
+        <div id="pets">
+            <div id="card-main">
+                <img src="https://image.flaticon.com/icons/svg/616/616408.svg" alt="Imagem de um cachorro">
+                <div id="descricao-card">
+                    <h2>Cachorro</h2>
+                    <p>O cão (nome científico: Canis lupus familiaris), no Brasil também chamado de cachorro, é um mamífero carnívoro da família dos canídeos, subespécie do lobo, e talvez o mais antigo animal domesticado pelo ser humano.</p>
+                    <a href="./pages/Cachorro/"> Ver mais</a>
+                </div>
+            </div>
+
+            <div id="card-main">
+                <img src="https://image.flaticon.com/icons/svg/616/616430.svg" alt="Imagem de um gato">
+                <div id="descricao-card">
+                    <h2>Gato</h2>
+                    <p>O gato (Felis silvestris catus) é um mamífero carnívoro da família dos felídeos, muito popular como animal de estimação. Ocupando o topo da cadeia alimentar, é predador natural de diversos animais.</p>
+                    <a href="./pages/Cat/"> Ver mais</a>
+                </div>
+            </div>
+        </div>
+        <div id="modal" class="hide">
+            <div class="content">
+                <h1>Novo Pet</h1>
+                <form action="/" method="POST" onsubmit="return checkFields(event)">
+                    <div class="input-wrapper">
+                        <label for="title">Nome do animal</label>
+                        <input type="text" name="title">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="category">Categoria</label>
+                        <input type="text" name="category">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="image">Link da foto do animal</label>
+                        <input type="url" name="image">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="description">Digite a descrição do animal</label>
+                        <textarea name="description" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="link">Link do vídeo</label>
+                        <input type="url" name="link">
+                    </div>
+
+                    <a href="#" onclick="onOff()">Voltar</a>
+                    <button>Salvar</button>
+                </form>
+            </div>
+
+        </div>
+        <script src="/script.js"></script>
+    </div>
+    <footer>
+        <p id="footer">Com ❤ aos pets </p>
+    </footer>
 </body>
 
 </html>
