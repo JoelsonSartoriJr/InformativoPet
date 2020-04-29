@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,28 +7,69 @@
 }
 
 body {
-    font: 400 14px Roboto, sans-serif;
-    background: #6C3E8E;
+    font: 400 14px Montserrat, sans-serif;
+    background: #e5e5e5;
     -webkit-font-smoothing: antialiased;
+    color: #25282b;
 }
 
 p {
-    font: 400 14px Roboto, sans-serif;
-    color: #ededed;
+    font: 400 14px Montserrat, sans-serif;
     margin: 5%;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
 }
 
 h2 {
     font: 700 Roboto, sans-serif;
-    color: #ededed
+}
+
+h1 {
+    color: #00909e;
 }
 
 a {
     font: 500 18px Roboto, sans-serif;
-    color: #ededed;
+    color: #00909e;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
     filter: brightness(80%);
+}
+
+button {
+    width: 50%;
+    height: 60px;
+    background: #00909e;
+    border: 0;
+    border-radius: 8px;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-left: 30px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: filter 0.2s;
+    cursor: pointer;
+    outline: none;
+}
+
+button :hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: left;
+    color: #777;
+}
+
+footer a {
+    opacity: 1;
 }
