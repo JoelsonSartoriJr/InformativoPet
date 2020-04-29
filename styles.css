@@ -3,7 +3,6 @@
     max-width: 1200px;
     display: flex;
     margin: auto;
-    margin-top: 20px;
 }
 
 #titulo {
@@ -37,8 +36,8 @@
 
 #card-main {
     background: whitesmoke;
-    width: 550px;
-    height: 250px;
+    width: 90%;
+    height: 45%;
     border-radius: 8px;
     margin: 1.5rem;
     display: flex;
@@ -50,13 +49,14 @@ img {
     width: 60px;
     height: 60px;
 }
-#descricao a{
+
+#descricao a {
     width: 30%;
     height: 60px;
     background: #00909e;
     border: 0;
     border-radius: 8px;
-    color:white ;
+    color: white;
     font-weight: 700;
     margin-top: 16px;
     margin-right: 16px;
@@ -73,5 +73,4 @@ img {
 
 a:hover {
     filter: brightness(80%);
-}
 }
