@@ -50,3 +50,29 @@ img {
     width: 60px;
     height: 60px;
 }
+#descricao a{
+    width: 30%;
+    height: 60px;
+    left: 80px;
+    background: #00909e;
+    border: 0;
+    border-radius: 8px;
+    color:white ;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-right: 16px;
+    margin-left: 30px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    transition: filter 0.2s;
+    cursor: pointer;
+    outline: none;
+}
+
+a:hover {
+    filter: brightness(80%);
+}
+}

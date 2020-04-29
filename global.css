@@ -30,7 +30,7 @@ h1 {
 }
 
 a {
-    font: 500 18px Roboto, sans-serif;
+    font: 500 18px Montserrat, sans-serif;
     color: #00909e;
     text-decoration: none;
     font-weight: bold;
@@ -42,18 +42,17 @@ a:hover {
 
 button {
     width: 50%;
-    height: 60px;
-    background: #00909e;
+    height: 50px;
+    background: none;
     border: 0;
     border-radius: 8px;
-    color: #ffffff;
+    color: #00909e;
     font-weight: 700;
     margin-top: 16px;
     margin-right: 16px;
     margin-left: 30px;
     display: inline-block;
     text-align: center;
-    text-decoration: none;
     font-size: 18px;
     line-height: 60px;
     transition: filter 0.2s;
@@ -61,8 +60,9 @@ button {
     outline: none;
 }
 
-button :hover {
+button:hover {
     text-decoration: underline;
+    text-decoration-color: #00909e;
 }
 
 footer {
