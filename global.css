@@ -42,14 +42,14 @@ a:hover {
 
 button {
     width: 50%;
-    height: 50px;
+    height: 60px;
     background: none;
     border: 0;
     border-radius: 8px;
     color: #00909e;
     font-weight: 700;
     margin-top: 16px;
-    margin-right: 16px;
+    margin-right: 1px;
     margin-left: 30px;
     display: inline-block;
     text-align: center;
