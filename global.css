@@ -26,12 +26,13 @@ h2 {
 }
 
 h1 {
-    color: #00909e;
+    color: #4d4c7d;
 }
 
-a {
+a,
+li {
     font: 500 18px Montserrat, sans-serif;
-    color: #00909e;
+    color: #4d4c7d;
     text-decoration: none;
     font-weight: bold;
 }
@@ -46,7 +47,7 @@ button {
     background: none;
     border: 0;
     border-radius: 8px;
-    color: #00909e;
+    color: #4d4c7d;
     font-weight: 700;
     margin-top: 16px;
     margin-right: 1px;
@@ -62,7 +63,7 @@ button {
 
 button:hover {
     text-decoration: underline;
-    text-decoration-color: #00909e;
+    text-decoration-color: #d8b9c3;
 }
 
 footer {
@@ -75,88 +76,37 @@ footer a {
 }
 
 
-/* modal - popup */
+/* navbar */
 
-#modal {
-    background-color: #27496d;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+header {
     display: flex;
-    justify-content: center;
-}
-
-#modal.addScroll {
-    overflow: auto;
-}
-
-#modal .content {
-    margin-top: 5%;
-    color: white;
-}
-
-#modal .content h1 {
-    color: white;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-#modal form {
-    width: 80%;
-    max-width: 800px;
-    margin: 0 auto 15%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px
-}
-
-#modal.hide {
-    opacity: 2;
-    visibility: hidden;
-}
-
-.content form div:nth-child(3),
-.content form div:nth-child(4),
-.content form div:nth-child(5) {
-    grid-column: span 2;
-}
-
-form input,
-form textarea {
-    width: 100%;
-    padding: 12px;
-    box-sizing: border-box;
-    border-radius: 6px;
-    border: 1px solid rgba(141, 25, 1, 0.5);
-    outline: none;
-    font-size: 16px;
-}
-
-form label {
-    font-weight: 600;
-    line-height: 32px;
-    letter-spacing: 0.8px;
-}
-
-form a {
-    width: 150px;
-    height: 40px;
-    background-color: #ffffff22;
-    color: white;
-    display: flex;
+    justify-content: space-around;
+    margin: auto;
     align-items: center;
-    justify-content: center;
-    align-self: end;
-    font-size: 14px;
-    font-weight: bold;
-    border-radius: 6px;
-    transition: 400ms;
+    padding: 10px 10%;
+    background-color: #4d4c7d;
 }
 
-form a:hover {
-    background-color: #0984e3;
-    color: white;
-    text-decoration: none;
+.logo {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    color: #e5e5e5;
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #363062;
 }

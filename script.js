@@ -1,4 +1,4 @@
-function onOff(){
+function onOff() {
     document
         .querySelector("#modal")
         .classList
@@ -10,28 +10,30 @@ function onOff(){
     document
         .querySelector("#modal")
         .classList
-        .toggle("addScroll")    
+        .toggle("addScroll")
 }
 
-function checkFields(event){
+function checkFields(event) {
     const valuesToCheck = [
-        "title",
-        "image",
-        "category",
-        "description",
-        "link"
+        "especie",
+        "origem",
+        "porte",
+        "espectativaVida",
+        "linkImage",
+        "linkVideo",
+        "descricao"
     ]
 
-    const isEmpty = valuesToCheck.find(function(value){
+    const isEmpty = valuesToCheck.find(function(value) {
         const checkIfIsString = typeof event.target[value].value === "string"
         const checkIfIsEmpty = !event.target[value].value.trim()
-        if(checkIfIsString && checkIfIsEmpty){
+        if (checkIfIsString && checkIfIsEmpty) {
             return true
         }
     })
 
-    if(isEmpty){
+    if (isEmpty) {
         event.preventDefault()
         alert("Por favor preencha todos os campos")
     }
-}    
+}
