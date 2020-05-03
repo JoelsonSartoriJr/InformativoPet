@@ -7,10 +7,17 @@
 }
 
 body {
+    width: 100vw;
+    padding-top: 1%;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
     font: 400 14px Montserrat, sans-serif;
     background: #e5e5e5;
     -webkit-font-smoothing: antialiased;
     color: #25282b;
+    flex-direction: column;
 }
 
 p {
@@ -79,11 +86,12 @@ footer a {
 /* navbar */
 
 header {
+    width: 90%;
     display: flex;
-    justify-content: space-around;
-    margin: auto;
+    justify-content: space-between;
     align-items: center;
     padding: 10px 10%;
+    margin-bottom: 2%;
     background-color: #4d4c7d;
 }
 

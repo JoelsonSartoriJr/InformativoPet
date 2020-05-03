@@ -1,0 +1,74 @@
+.cards_main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: 150px 150px 50px;
+    grid-template-areas: "image" "text" "stats";
+    border-radius: 18px;
+    background: #4d4c7d;
+    color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    font-family: roboto;
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.card_imagem {
+    grid-area: image;
+}
+
+.card_texto {
+    grid-area: text;
+}
+
+.card_status {
+    grid-area: stats;
+}
+
+.card_imagem {
+    grid-area: image;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+.card_imagem img {
+    width: 250px;
+    height: 150px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card_texto {
+    grid-area: text;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.card_texto h2 {
+    font-size: 18px;
+}
+
+.card_texto p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.card_status {
+    grid-area: stats;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #363062;
+}
+
+.card_status img {
+    height: 40px;
+    width: 40px;
+    margin-top: 3.5px;
+}
