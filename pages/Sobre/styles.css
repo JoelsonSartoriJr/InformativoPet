@@ -1,4 +1,4 @@
-body{
+body {
     background: url(https://upapet.com.br/wp-content/uploads/2020/02/cachorro-gato-dermatite-upapet-1080x675.jpg) no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -7,17 +7,30 @@ body{
     overflow: visible;
 }
 
-h1{
+#main {
+    width: 100%;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+}
+
+#main_sobre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1 {
     color: black;
     text-align: center;
 }
 
-p{
-    color:black;
+p {
+    color: black;
     text-align: center;
 }
 
-#quemSomos {
+#sobre {
     margin: 20px;
     text-align: justify;
     border-radius: 6px;
@@ -26,18 +39,15 @@ p{
     border-radius: 8px;
 }
 
-#objetivos {
-    margin: 20px;
-    text-align: justify;
-    border-radius: 6px;
-    width: 100%;
-    text-align: justify;
-    border-radius: 8px;
-}
-#main {
-    width: 100%;
-    max-width: 1200px;
-    display: flex;
-    margin: auto;
+#img {
+    text-align: center;
 }
 
+#img h2 {
+    color: black;
+}
+
+#img img {
+    height: 60px;
+    width: 60px;
+}
