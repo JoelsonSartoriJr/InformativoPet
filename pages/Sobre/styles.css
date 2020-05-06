@@ -1,5 +1,5 @@
 body{
-    background: url(https://d13es1p1rl0iq1.cloudfront.net/wp-content/uploads/2019/01/animals-bite-blurred-background-955470-1024x683.jpg) no-repeat center top fixed;
+    background: url(https://upapet.com.br/wp-content/uploads/2020/02/cachorro-gato-dermatite-upapet-1080x675.jpg) no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -8,12 +8,12 @@ body{
 }
 
 h1{
-    color: white;
+    color: black;
     text-align: center;
 }
 
 p{
-    color: white;
+    color:black;
     text-align: center;
 }
 
@@ -40,3 +40,4 @@ p{
     display: flex;
     margin: auto;
 }
+
