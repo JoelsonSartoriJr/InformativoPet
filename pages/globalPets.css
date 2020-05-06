@@ -25,18 +25,6 @@ body {
 
 .card_imagem {
     grid-area: image;
-}
-
-.card_texto {
-    grid-area: text;
-}
-
-.card_status {
-    grid-area: stats;
-}
-
-.card_imagem {
-    grid-area: image;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     background-size: cover;
@@ -51,17 +39,18 @@ body {
 
 .card_texto {
     grid-area: text;
-    margin-top: 5px;
     margin-bottom: 15px;
+    font-weight: 300;
 }
 
 .card_texto h2 {
+    margin-top: 5px;
     font-size: 18px;
 }
 
 .card_texto p {
+    margin-top: 2px;
     font-size: 12px;
-    font-weight: 300;
 }
 
 .card_status {
@@ -76,4 +65,3 @@ body {
     width: 40px;
     margin-top: 3.5px;
 }
-
