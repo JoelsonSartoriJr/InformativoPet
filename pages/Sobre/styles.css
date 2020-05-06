@@ -3,5 +3,40 @@ body{
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover
+    background-size: cover;
+    overflow: visible;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+#quemSomos {
+    margin: 20px;
+    text-align: justify;
+    border-radius: 6px;
+    width: 100%;
+    text-align: justify;
+    border-radius: 8px;
+}
+
+#objetivos {
+    margin: 20px;
+    text-align: justify;
+    border-radius: 6px;
+    width: 100%;
+    text-align: justify;
+    border-radius: 8px;
+}
+#main {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
 }
