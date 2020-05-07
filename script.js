@@ -15,10 +15,10 @@ function onOff() {
 
 function checkFields(event) {
     const valuesToCheck = [
-        "especie",
+        "espécie",
         "origem",
         "porte",
-        "espectativaVida",
+        "ExpectativaVida",
         "linkImage",
         "linkVideo",
         "descricao"
