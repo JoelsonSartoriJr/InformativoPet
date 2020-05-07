@@ -1,5 +1,5 @@
 body {
-    background: url(https://upapet.com.br/wp-content/uploads/2020/02/cachorro-gato-dermatite-upapet-1080x675.jpg) no-repeat center top fixed;
+    background: url(https://www.newhope.com/sites/newhope360.com/files/styles/article_featured_retina/public/pets_0.png?itok=Sr6KmJ_u) no-repeat center top fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -18,11 +18,13 @@ body {
 #main_sobre {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 280px;
 }
 
 h1 {
     color: black;
     text-align: center;
+    margin-top: 20px;
 }
 
 p {
